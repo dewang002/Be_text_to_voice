@@ -24,7 +24,7 @@ app.post("/talk",(req,res)=> {
 
 app.get('/',(req,res)=>{
     return res.json({
-        msg: "running"
+        msg: "running at 3000"
     })
 })
 
